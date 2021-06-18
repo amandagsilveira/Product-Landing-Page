@@ -1,0 +1,142 @@
+body {
+  background-color: c6c690;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #594433;
+}
+
+#header {
+  background-color: #f0e5c9;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  padding: 0px;
+  width:200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 27px;
+}
+
+#nav-bar {
+  padding: 3px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 23px;
+  padding: 11px;
+  font-size: 19px;
+  color: #594433;
+}
+@media (max-width: 568px) {
+  .nav-link{
+    flex-direction: column;
+  }
+  
+}
+
+button {
+  margin: 11px;
+  padding: 7px;
+  background-color: #f0e5c9;
+  border: 3px solid #a68c69;
+  border-radius: 9px;
+}
+
+.form-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 250px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 19px;
+}
+
+#email {
+  text-align: center;
+  font-size: 19px;
+  margin: 13px;
+  width: 300px;
+  height: 27px;
+  border: 2px solid #c6c690;
+  border-radius: 9px;
+}
+
+#submit {
+  margin: 13px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #c6c690;
+  border: 2px solid #594433;
+  border-radius: 9px;
+
+}
+
+.steps {
+  width: 100%;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+}
+
+li{
+text-align: justify;
+margin-top: 0;
+}
+  
+#how-it-works {
+  display: flex;
+  margin-top: 71px;
+  justify-content: center;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  margin-top: 71px;
+  justify-content: center;
+  text-align: center;
+  padding: 101px;
+}
+@media (max-width: 568px) {
+  #pricing {
+  border: 2px solid #594433;
+  border-radius: 9px;
+  }
+}  
+.option {
+  font-size: 23px;
+  text-align: center;
+  padding: 7px;
+  }
+
+.btn {
+  padding: 13px;
+  width: 97px;
+  }
+  
+footer {
+  margin: auto;
+  text-align: center;
+}

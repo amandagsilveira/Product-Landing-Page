@@ -39,6 +39,7 @@ body {
   padding: 11px;
   font-size: 19px;
   color: #594433;
+  text-decoration: none;
 }
 @media (max-width: 568px) {
   .nav-link{
@@ -139,4 +140,7 @@ margin-top: 0;
 footer {
   margin: auto;
   text-align: center;
+}
+footer p {
+  font-size: 10px;
 }
